@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@layer components {
+    .mobile-div {
+        @apply flex flex-col justify-end mx-auto max-w-sm min-h-screen  border border-gray-300 px-4 shadow-md py-8 
+    }
+    .input-css {
+        @apply w-full px-4 py-3 border border-gray-400 rounded focus:outline-none
+    }
+    .label-css {
+        @apply absolute left-4 top-0 -translate-y-1/2 bg-white px-1.5 text-sm font-medium text-purple-600
+    }
+    .btn-css {
+        @apply mb-2 bg-blue-500 text-white py-2 w-full rounded font-medium hover:bg-blue-600 cursor-pointer
+    }
+    .btn-dis {
+        @apply mb-2 bg-gray-300 cursor-not-allowed text-white py-2 w-full rounded font-medium
+    }
+}
